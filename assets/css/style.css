@@ -1,5 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Klee+One:wght@600&family=Roboto+Mono:wght@300&display=swap');
 
+/* --------- Heading */
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
 
+h1 {
+    font-family: 'Roboto Mono', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: black;
+}
 
 /* Links in Side bar Properly Styled */
 #mySidenav a {
@@ -62,9 +75,9 @@ main{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-color: black;
-    background: url('../assets/background_image.jpg');
-    background-color : black;
+    background-color: goldenrod;
+    background: url('../image/audience-1866738_1280.jpg');
+    background-color : blue;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -121,7 +134,7 @@ main{
 .game-options-container span{
     width: 45%;
     height: 3rem;
-    border: 2px solid darkgray;
+    border: 2px solid blue;
     border-radius: 20px;
     overflow: hidden;
 }
