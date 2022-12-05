@@ -1,11 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Klee+One:wght@600&family=Roboto+Mono:wght@300&display=swap');
 
 /* --------- Heading */
-* {
-    margin: 0;
-    padding: 0;
-    border: 0;
-}
+
 
 h1 {
     font-family: 'Roboto Mono', sans-serif;
@@ -64,7 +60,7 @@ html, body{
 
 
 body{
-    font-family: 'Montserrat', serif;
+    font-family: 'Klee One', serif;
 
 }
 

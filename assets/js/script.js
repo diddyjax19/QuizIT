@@ -1,13 +1,10 @@
-//this would be the object shape for storing the questions  
- //you can change the questions to your own taste or even add more questions..
+//All storage of Question and answers take place here 
  const questions = [
     {
-        question: "How many days makes a week ?",
-        optionA: "10 days",
-        optionB: "14 days",
-        optionC: "5 days",
-        optionD: "7 days",
-        correctOption: "optionD"
+        question: "Who has won more tennis grand slam titles ?",
+        optionA: "Venus Williams ",
+        optionB: "Serena Williams",
+        correctOption: "optionB"
     },
 
     {
@@ -20,12 +17,65 @@
     },
 
     {
-        question: "Who was the first President of USA ?",
-        optionA: "Donald Trump",
-        optionB: "Barack Obama",
-        optionC: "Abraham Lincoln",
-        optionD: "George Washington",
+        question: "In soccer, what body part can’t touch the ball?",
+        optionA: "Hand",
+        optionB: "leg",
+        optionC: "Stomach",
+        optionD: "Knee",
+        correctOption: "optionA"
+    },
+    
+    {
+        question: "How many players are on a baseball team? ?",
+        optionA: "7 players",
+        optionB: "11 players",
+        optionC: "9 players",
+        optionD: "12 players",
+        correctOption: "optionC"
+    },
+    
+    {
+        question: "How many rings are there on the Olympic flag? ?",
+        optionA: "5",
+        optionB: "6",
+        optionC: "4",
+        optionD: "3",
+        correctOption: "optionA"
+    },
+    
+    {
+        question: "Which country has the largest population in the world? ?",
+        optionA: "China",
+        optionB: "USA",
+        optionC: "Germany",
+        optionD: "Ghana",
+        correctOption: "optionA"
+    },
+    
+    {
+        question: "What is the record for red cards given in a single soccer game?",
+        optionA: "30",
+        optionB: "36",
+        optionC: "20",
+        optionD: "10",
+        correctOption: "optionB"
+    },
+    
+    {
+        question: "What is the coldest place on Earth ?",
+        optionA: "Germany",
+        optionB: "Canada",
+        optionC: "Russia",
+        optionD: "Antarctica",
         correctOption: "optionD"
+    },
+    {
+        question: "How continents are there in the world?",
+        optionA: "8",
+        optionB: "7",
+        optionC: "4",
+        optionD: "12",
+        correctOption: "optionB"
     },
 
     {
@@ -38,12 +88,12 @@
     },
 
     {
-        question: "How manay hours can be found in a day ?",
-        optionA: "30 hours",
-        optionB: "38 hours",
-        optionC: "48 hours",
-        optionD: "24 hours",
-        correctOption: "optionD"
+        question: "What is the only country to have played in every single soccer World Cup?",
+        optionA: "Brazil",
+        optionB: "England",
+        optionC: "Germany",
+        optionD: "USA",
+        correctOption: "optionA"
     },
 
     {
@@ -74,30 +124,30 @@
     },
 
     {
-        question: "Which of these numbers is an odd number ?",
-        optionA: "Ten",
-        optionB: "Twelve",
-        optionC: "Eight",
-        optionD: "Eleven",
+        question: "The World Cup are held every how many years??",
+        optionA: "1",
+        optionB: "5",
+        optionC: "2",
+        optionD: "4",
         correctOption: "optionD"
     },
 
     {
-        question: `"You Can't see me" is a popular saying by`,
-        optionA: "Eminem",
-        optionB: "Bill Gates",
-        optionC: "Chris Brown",
-        optionD: "John Cena",
+        question: `"What sport is dubbed the ‘king of sports’?`,
+        optionA: "Lawn Tennis",
+        optionB: "Golf",
+        optionC: "BasketBall",
+        optionD: "Soccer",
         correctOption: "optionD"
     },
 
     {
-        question: "Where is the world tallest building located ?",
-        optionA: "Africa",
-        optionB: "California",
-        optionC: "Dubai",
-        optionD: "Italy",
-        correctOption: "optionC"
+        question: "Which of the following sports does not use a ball?",
+        optionA: "Golf",
+        optionB: "Hockey",
+        optionC: "Polo",
+        optionD: "Tennis",
+        correctOption: "optionB"
     },
 
     {
@@ -111,12 +161,12 @@
 
 
     {
-        question: "How many permanent teeth does a dog have ?",
-        optionA: "38",
-        optionB: "42",
-        optionC: "40",
-        optionD: "36",
-        correctOption: "optionB"
+        question: "In which year did Roger Federer first win the US Open?",
+        optionA: "2010",
+        optionB: "2015",
+        optionC: "2004",
+        optionD: "2001",
+        correctOption: "optionC"
     },
 
     {
@@ -129,21 +179,21 @@
     },
 
     {
-        question: "Which US state was Donald Trump Born ?",
-        optionA: "New York",
-        optionB: "California",
-        optionC: "New Jersey",
-        optionD: "Los Angeles",
-        correctOption: "optionA"
+        question: "Which country won the first ever soccer World Cup in 1930?",
+        optionA: "Brazil",
+        optionB: "Spain",
+        optionC: "Uruguay",
+        optionD: "Canada",
+        correctOption: "optionC"
     },
 
     {
-        question: "How man states does Nigeria have ?",
-        optionA: "24",
-        optionB: "30",
-        optionC: "36",
-        optionD: "37",
-        correctOption: "optionC"
+        question: "How many sets of hurdles are there in a 110m race ?",
+        optionA: "10",
+        optionB: "12",
+        optionC: "9",
+        optionD: "11",
+        correctOption: "optionA"
     },
 
     {
@@ -174,11 +224,11 @@
     },
 
     {
-        question: "How many sides does an hexagon have ?",
-        optionA: "Six",
-        optionB: "Sevene",
-        optionC: "Four",
-        optionD: "Five",
+        question: "What is the largest desert in the world ?",
+        optionA: "Antarctica",
+        optionB: "Sahara",
+        optionC: "Arctic",
+        optionD: "Arabian",
         correctOption: "optionA"
     },
 
@@ -201,30 +251,30 @@
     },
 
     {
-        question: "where is the smallest bone in human body located?",
-        optionA: "Toes",
-        optionB: "Ears",
-        optionC: "Fingers",
-        optionD: "Nose",
+        question: "What is the highest peak in Africa?",
+        optionA: "Mount Kenya",
+        optionB: "Mount Kilimanjaro",
+        optionC: "Mount Stanley",
+        optionD: "Mount Speke",
         correctOption: "optionB"
     },
 
     {
-        question: "How many hearts does an Octopus have ?",
-        optionA: "One",
-        optionB: "Two",
-        optionC: "Three",
-        optionD: "Four",
-        correctOption: "optionC"
+        question: "Which football manager is known as ‘The Special One’?",
+        optionA: "Jürgen Klopp",
+        optionB: "José Mourinho",
+        optionC: "Pep Guardiola",
+        optionD: "Arsène Wenger",
+        correctOption: "optionB"
     },
 
     {
-        question: "How many teeth does an adult human have ?",
-        optionA: "28",
-        optionB: "30",
-        optionC: "32",
-        optionD: "36",
-        correctOption: "optionC"
+        question: "How long is a marathon?",
+        optionA: "26.2 miles",
+        optionB: "100.9 miles",
+        optionC: "36.7 miles",
+        optionD: "16.5 miles",
+        correctOption: "optionA"
     }
 
 ]
