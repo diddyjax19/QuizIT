@@ -7,6 +7,16 @@ h1 {
     color: black;
 }
 
+
+.heading {
+    text-align: center;
+    font-size: 2.5rem;
+}
+
+.logo {
+    height: 40px;
+    padding-right: 5px;
+}
 /* Links in Side bar Properly Styled */
 #mySidenav a {
     position: absolute;
@@ -113,7 +123,7 @@ main{
     justify-content: center;
     align-items: center;
     background-color: goldenrod;
-    background: url('../image/audience-1866738_1280.jpg');
+    background: url('../image/paragliding-7518545_1920.jpg');
     background-color : white;
     background-repeat: no-repeat;
     background-size: cover;
