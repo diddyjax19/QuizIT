@@ -1,3 +1,4 @@
+/*jshint esversion: 6 */
 let shuffledQuestions = []; 
 
 
@@ -105,8 +106,8 @@ function handleNextQuestion() {
 function resetOptionBackground() {
     const options = document.getElementsByName("option");
     options.forEach((option) => {
-        document.getElementById(option.labels[0].id).style.backgroundColor = ""
-    })
+        document.getElementById(option.labels[0].id).style.backgroundColor = "";
+    });
 }
 
 // unchecking all radio buttons for next question(can be done with map or foreach loop also)
@@ -145,16 +146,6 @@ function handleEndGame() {
 
 }
 
-//closes score modal, resets game and reshuffles questions
-function closeScoreModal() {
-    questionNumber = 1;
-    playerScore = 0;
-    wrongAttempt = 0;
-    indexNumber = 0;
-    shuffledQuestions = [];
-    NextQuestion(indexNumber);
-    document.getElementById('score-modal').style.display = "none";
-}
 
 //function to close warning modal
 function closeOptionModal() {
@@ -167,7 +158,10 @@ const questions = [{
         question: "Who has won more tennis grand slam titles ?",
         optionA: "Venus Williams ",
         optionB: "Serena Williams",
+        optionC: "Iga Świątek",
+        optionD: "Simona Halep",
         correctOption: "optionB"
+        
     },
 
     {
@@ -440,4 +434,4 @@ const questions = [{
         correctOption: "optionA"
     }
 
-]
+];
