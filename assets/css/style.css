@@ -389,34 +389,6 @@ footer{
         font-size: 1.2rem;
     }
 }
-@media(min-width : 600px) and (max-width : 780px){
-    .game-quiz-container{
-        width: 100%;
-        height: 90vh;
-     }
-     .game-details-container h1{
-         font-size: 1rem;
-     }
- 
-     .game-question-container{
-         height: 8rem;
-     }
- 
-     .game-question-container h1{
-         font-size: 0.9rem;
-      }
- 
-     .game-options-container span{
-         width: 90%;
-     }
-     .modal-content-container{
-         width: 90%;
-         height: 25rem;
-     }
-     .modal-content-container h1{
-         font-size: 1.2rem;
-}
-}
 @keyframes fadeIn {
     from {opacity: 0;}
     to {opacity:1 ;}
