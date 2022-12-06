@@ -160,11 +160,11 @@ function closeScoreModal() {
 //function to close warning modal
 function closeOptionModal() {
     document.getElementById('option-modal').style.display = "none"
-
 }
+
 //All storage of Question and answers take place here 
 const questions = [{
-        question: "Who has won more tennis grand slam titles ?",
+        question: "Who has won more tennis grand slam titles?",
         optionA: "Venus Williams ",
         optionB: "Serena Williams",
         optionC: "Iga Świątek",
@@ -174,7 +174,7 @@ const questions = [{
     },
 
     {
-        question: 'How many players are allowed on a soccer pitch ?',
+        question: 'How many players are allowed on a soccer pitch?',
         optionA: '10 players',
         optionB: '11 players',
         optionC: '9 players',
@@ -192,7 +192,7 @@ const questions = [{
     },
 
     {
-        question: "How many players are on a baseball team? ?",
+        question: "How many players are on a baseball team?",
         optionA: "7 players",
         optionB: "11 players",
         optionC: "9 players",
@@ -201,7 +201,7 @@ const questions = [{
     },
 
     {
-        question: "How many rings are there on the Olympic flag? ?",
+        question: "How many rings are there on the Olympic flag?",
         optionA: "5",
         optionB: "6",
         optionC: "4",
@@ -210,7 +210,7 @@ const questions = [{
     },
 
     {
-        question: "Which country has the largest population in the world? ?",
+        question: "Which country has the largest population in the world?",
         optionA: "China",
         optionB: "USA",
         optionC: "Germany",
@@ -228,7 +228,7 @@ const questions = [{
     },
 
     {
-        question: "What is the coldest place on Earth ?",
+        question: "What is the coldest place on Earth?",
         optionA: "Germany",
         optionB: "Canada",
         optionC: "Russia",
@@ -245,7 +245,7 @@ const questions = [{
     },
 
     {
-        question: "30 days has ______ ?",
+        question: "30 days has ______?",
         optionA: "January",
         optionB: "December",
         optionC: "June",
@@ -263,7 +263,7 @@ const questions = [{
     },
 
     {
-        question: "Which is the longest river in the world ?",
+        question: "Which is the longest river in the world?",
         optionA: "River Nile",
         optionB: "Long River",
         optionC: "River Niger",
@@ -272,7 +272,7 @@ const questions = [{
     },
 
     {
-        question: "_____ is the hottest Continent on Earth ?",
+        question: "_____ is the hottest Continent on Earth?",
         optionA: "Oceania",
         optionB: "Antarctica",
         optionC: "Africa",
@@ -299,7 +299,7 @@ const questions = [{
     },
 
     {
-        question: `"What sport is dubbed the ‘king of sports’?`,
+        question: "What sport is dubbed the ‘king of sports’?",
         optionA: "Lawn Tennis",
         optionB: "Golf",
         optionC: "BasketBall",
@@ -354,7 +354,7 @@ const questions = [{
     },
 
     {
-        question: "How many sets of hurdles are there in a 110m race ?",
+        question: "How many sets of hurdles are there in a 110m race?",
         optionA: "10",
         optionB: "12",
         optionC: "9",
@@ -363,7 +363,7 @@ const questions = [{
     },
 
     {
-        question: "____ is the capital of Nigeria ?",
+        question: "____ is the capital of Nigeria?",
         optionA: "Abuja",
         optionB: "Lagos",
         optionC: "Calabar",
@@ -372,7 +372,7 @@ const questions = [{
     },
 
     {
-        question: "Los Angeles is also known as ?",
+        question: "Los Angeles is also known as?",
         optionA: "Angels City",
         optionB: "Shining city",
         optionC: "City of Angels",
@@ -408,7 +408,7 @@ const questions = [{
     },
 
     {
-        question: "Which Planet is the hottest ?",
+        question: "Which Planet is the hottest?",
         optionA: "Jupitar",
         optionB: "Mercury",
         optionC: "Earth",
@@ -442,5 +442,4 @@ const questions = [{
         optionD: "16.5 miles",
         correctOption: "optionA"
     }
-
 ];
