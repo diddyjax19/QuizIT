@@ -17,31 +17,44 @@ In this section, you should go over the different parts of your project, and des
 
   - Featured at the top of the page, the QuizIT heading is easy to see for the user. Upon viewing the page, the user will be able to see the name of the game and even if he goes to anothe page can easily come back to the game area.
 
-![Logo](media/love_maths_logo.png)
+![Logo](assets/screenshots/1new.png)
 
-- __The Game Area__
+- __The Quiz Area__
 
-  - This section will allow the user to play the maths game. The user will be able to easily see icons for addition,  subtraction, multiplication, and division games.
-  - The user will be able to select the type of maths game they will be playing by clicking on the different icons. 
+- The QuizIT game can be played in this area. The user will find it simple to read the questions and choose the appropriate response from the choices A to D.
 
-![Game](media/love_maths_icons.png)
 
-- __The Question section__
+![Game](assets/screenshots/12 new.png)
 
-  - The question section is where the user will be able to see the elementary arithmetic question to answer as part of the game. The user will be able answer the questions in the answer box provide
-  - The user will be able to submit their answer and a pop-up will make it known to the user if they answered correctly. 
+- __The Option section__
 
-![Question](media/love_maths_question.png)
+  - - When the user chooses an option, he or she will will be able to see their response. If it is incorrect, the response will be highlighted in red, and if it is correct, it will be highlighted in green.
+
+![Question](assets/screenshots/option.png)
 
 - __The Score Area__
 
-  - This section will allow the user to see exactly how many correct and incorrect answers they have provided. 
+  -  At the top of the screen, the user can also see how many questions they have answered and how many of them were correct.
 
-![score](media/love_maths_answer.png)
+![score](assets/screenshots/score.png)
 
-For some/all of your features, you may choose to reference the specific project files that implement them.
+ __The SignUp section__
 
-In addition, you may also use this section to discuss plans for additional features to be implemented in the future:
+  - In this area,you can register by adding an Email address and creating your password.
+
+  ![score](assets/screenshots/form1.png)
+
+  __The Footer section__
+
+  - In this area,you can click the link and be directed to either the facebook,instagran,twitter and you-tube page.
+
+  ![score](assets/screenshots/footer.png)
+
+  __The Quick-link section__
+
+  - In this area,at the side of the screen you can see the quick link,that if clicked can go the home page and the sign-up page.
+
+  ![score](assets/screenshots/123.png)
 
 ### Features Left to Implement
 
