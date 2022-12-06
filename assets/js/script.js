@@ -1,4 +1,5 @@
-let shuffledQuestions = []; //empty array to hold questions from all available questions that have been shuffled.
+let shuffledQuestions = []; 
+
 
 function handleQuestions() {
     //push 10 questions to the array of shuffled questions using this function.
