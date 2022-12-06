@@ -90,7 +90,7 @@ function handleNextQuestion() {
 
 
     setTimeout(() => {
-        if (indexNumber <= 19) {
+        if (indexNumber <= 9) {
 
             NextQuestion(indexNumber);
         } else {
