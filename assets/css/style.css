@@ -391,8 +391,8 @@ footer{
 }
 @media(min-width : 600px) and (max-width : 780px){
     .game-quiz-container{
-        width: 140%;
-        height: 160vh;
+        width: 180%;
+        height: 200vh;
      }
      .game-details-container h1{
          font-size: 1rem;
