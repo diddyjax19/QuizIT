@@ -146,13 +146,22 @@ function handleEndGame() {
 
 }
 
+//closes score modal, resets game and reshuffles questions
+function closeScoreModal() {
+    questionNumber = 1
+    playerScore = 0
+    wrongAttempt = 0
+    indexNumber = 0
+    shuffledQuestions = []
+    NextQuestion(indexNumber)
+    document.getElementById('score-modal').style.display = "none"
+}
 
 //function to close warning modal
 function closeOptionModal() {
-    document.getElementById('option-modal').style.display = "none";
+    document.getElementById('option-modal').style.display = "none"
+
 }
-
-
 //All storage of Question and answers take place here 
 const questions = [{
         question: "Who has won more tennis grand slam titles ?",

@@ -3,6 +3,8 @@
 QuizIT is a website that offer trivia on important sport and geographical issues.The project is design to help all user old and young be up to date about all things sport.It gives a real time Answer to each question.
 
 The QuizIT website also shows how JavaScript works in a real-world context.The site is targetted toward everyone who is inquisitive and looking for a challenge.QuizIT is a fully responsive website .
+![Link](https://diddyjax19.github.io/QuizIT/index.html)
+
 
 
 ![Responsice Mockup](media/love_maths_mockup.png)
@@ -55,10 +57,6 @@ In this section, you should go over the different parts of your project, and des
   - In this area,at the side of the screen you can see the quick link,that if clicked can go the home page and the sign-up page.
 
   ![score](assets/screenshots/123.png)
-
-### Features Left to Implement
-
-- Another feature idea
 
 ## Testing 
 
