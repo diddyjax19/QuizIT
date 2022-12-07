@@ -71,7 +71,7 @@ Responsive on all device sizes
 
       - Accessibility
     - I confirmed that the colors and Fonts chosen are easy to read and accessible by running it through Lighthouse in Devtools
-    <h2 align="center"><img src="https://github.com/diddyjax19/QuizIT/blob/main/assets/screenshots/p.png"></h2>
+    <h2 align="center"><img src="https://github.com/diddyjax19/QuizIT/blob/main/assets/screenshots/1.png"></h2>
 
     
 ### Further Testing
