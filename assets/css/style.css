@@ -1,19 +1,15 @@
 /* --------- Heading */
-
 h1 {
     font-family: 'Roboto Mono', sans-serif;
     text-transform: uppercase;
     letter-spacing: 2px;
     color: black;
 }
-
-
 .heading {
     text-align: center;
     font-size: 2.5rem;
     padding-right: 50px;
     letter-spacing: 5px;
-
 }
 h1 {
     font-family: 'Roboto Mono', sans-serif;
@@ -42,14 +38,11 @@ h1 {
     top: 20px;
     background-color: #04AA6D;
   }
-  
   #signup {
     top: 80px;
     background-color: #2196F3;
   }
-
-  
-  /* Add padding to containers */
+  /* Added padding to containers */
   .container {
     padding: 16px;
     background-color: white;
@@ -99,7 +92,7 @@ h1 {
   
   /* Set a grey background color and center the text of the "sign in" section */
   .signin {
-    background-color: #f1f1f1;
+    background-color: grey;
     text-align: center;
   }
 
@@ -402,4 +395,3 @@ footer{
     from {opacity: 0;}
     to {opacity: 1;}
   }
-

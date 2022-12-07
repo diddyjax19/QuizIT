@@ -4,7 +4,7 @@ let shuffledQuestions = [];
 
 function handleQuestions() {
     //push 10 questions to the array of shuffled questions using this function.
-    //app would be dealing with 10questions per session
+    //The app would handle 10 queries every session.
     while (shuffledQuestions.length <= 9) {
         
         const random = questions[Math.floor(Math.random() * questions.length)];
@@ -19,8 +19,8 @@ let playerScore = 0;
 let wrongAttempt = 0;
 let indexNumber = 0;
 
-// function for showing the following query in the array to the dom
-//also handles displaying players and quiz information to dom
+// code for displaying the next question to the dom in an array
+//also handles showing information about quiz participants to dom
 function NextQuestion(index) {
     handleQuestions();
     const currentQuestion = shuffledQuestions[index];
@@ -39,34 +39,34 @@ function checkForAnswer() {
     const currentQuestionAnswer = currentQuestion.correctOption;
     const options = document.getElementsByName("option");
 
-    //gets all elements in dom with name of 'option' (in this the radio inputs)
+    //retrieves all DOM elements with the name "option" (in this the radio inputs)
     let correctOption = null;
 
     options.forEach((option) => {
        if (option.value === currentQuestionAnswer) {
-         //get's correct's radio input with correct answer
+         //receives the right radio input with the right response.
             correctOption = option.labels[0].id;
         }
     });
 
-    //checking to make sure a radio input has been checked or an option being chosen
+    //ensuring that a radio input has been selected or a choice has been made
     if (options[0].checked === false && options[1].checked === false && options[2].checked === false && options[3].checked == false) {
         document.getElementById('option-modal').style.display = "flex";
     }
     
 
-    //checking to make sure a radio input has been checked or an option being chosen
+    //ensuring that a radio input has been selected or a choice has been made
     if (options[0].checked === false && options[1].checked === false && options[2].checked === false && options[3].checked == false) {
         document.getElementById('option-modal').style.display = "flex";
     }
 
-    //checking if checked radio button is same as answer
+    //checking to see if the answer matches the checked radio button
     options.forEach((option) => {
         if (option.checked === true && option.value === currentQuestionAnswer) {
             document.getElementById(correctOption).style.backgroundColor = "green";
             playerScore++;
             indexNumber++;
-            //set to delay question number till when next question loads
+            //set to hold the current question number until the next one loads
             setTimeout(() => {
                 questionNumber++;
             }, 1000);
@@ -76,7 +76,7 @@ function checkForAnswer() {
             document.getElementById(correctOption).style.backgroundColor = "green";
             wrongAttempt++;
             indexNumber++;
-            //set to delay question number till when next question loads
+            //set to hold the question number until the following question loads
             setTimeout(() => {
                 questionNumber++;
             }, 1000);
@@ -85,7 +85,7 @@ function checkForAnswer() {
 }
 
 
-//called when the next button is called
+//when the subsequent button is pressed
 function handleNextQuestion() {
     checkForAnswer();
     unCheckRadioButtons();
@@ -102,7 +102,7 @@ function handleNextQuestion() {
     }, 1000);
 }
 
-//sets options background back to null after display the right/wrong colors
+//returns the option background to null after displaying the correct or incorrect colors
 function resetOptionBackground() {
     const options = document.getElementsByName("option");
     options.forEach((option) => {
@@ -110,7 +110,7 @@ function resetOptionBackground() {
     });
 }
 
-// unchecking all radio buttons for next question(can be done with map or foreach loop also)
+// For the following inquiry, all radio buttons are unchecked (can be done with map or foreach loop also)
 function unCheckRadioButtons() {
     const options = document.getElementsByName("option");
     for (let i = 0; i < options.length; i++) {
@@ -118,12 +118,12 @@ function unCheckRadioButtons() {
     }
 }
 
-// function for when all questions being answered
+// function to use when all queries have been resolved
 function handleEndGame() {
     let remark = null;
     let remarkColor = null;
 
-    // condition check for player remark and remark color
+    // player condition check and color check for remarks
     if (playerScore <= 3) {
         remark = "Bad Grades, Keep Practicing.";
         remarkColor = "red";
@@ -146,7 +146,7 @@ function handleEndGame() {
 
 }
 
-//closes score modal, resets game and reshuffles questions
+//closes the score modal, restarts the game, and reorders the questions.
 function closeScoreModal() {
     questionNumber = 1;
     playerScore = 0;
@@ -157,12 +157,12 @@ function closeScoreModal() {
     document.getElementById('score-modal').style.display = "none";
 }
 
-//function to close warning modal
+//function to end warning modal
 function closeOptionModal() {
     document.getElementById('option-modal').style.display = "none";
 }
 
-//All storage of Question and answers take place here 
+//Here is where all questions and answers are stored.
 const questions = [{
         question: "Who has won more tennis grand slam titles?",
         optionA: "Venus Williams ",
