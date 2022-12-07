@@ -15,26 +15,26 @@ Responsive on all device sizes
 
   - Featured at the top of the page, the QuizIT heading is easy to see for the user. Upon viewing the page, the user will be able to see the name of the game and even if he goes to anothe page can easily come back to the game area.
 
-![Logo](assets/screenshots/1new.png)
+![Logo](assets/screenshots/header .png)
 
 - __The Quiz Area__
 
 - The QuizIT game can be played in this area. The user will find it simple to read the questions and choose the appropriate response from the choices A to D.
 
 
-![Game](assets/screenshots/12 new.png)
+![Game](assets/screenshots/Quiz area.png)
 
 - __The Option section__
 
   - - When the user chooses an option, he or she will will be able to see their response. If it is incorrect, the response will be highlighted in red, and if it is correct, it will be highlighted in green.
 
-![Question](assets/screenshots/option.png)
+![Question](assets/screenshots/options area.png)
 
 - __The Score Area__
 
   -  At the top of the screen, the user can also see how many questions they have answered and how many of them were correct.
 
-![score](assets/screenshots/score.png)
+![score](assets/screenshots/score area.png)
 
  __The SignUp section__
 
