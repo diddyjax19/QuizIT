@@ -1,4 +1,4 @@
-/* --------- Heading */
+/* ----- Heading ------*/
 h1 {
     font-family: 'Roboto Mono', sans-serif;
     text-transform: uppercase;
@@ -120,7 +120,7 @@ main{
     justify-content: center;
     align-items: center;
     background-color: goldenrod;
-    background: url('../image/paragliding-7518545_1920.jpg');
+    background: url('../image/jogging-2343558_1280.jpg');
     background-color : white;
     background-repeat: no-repeat;
     background-size: cover;
