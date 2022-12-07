@@ -4,12 +4,18 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        
+    <!-- font awesome and google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+    <!-- Stylesheet -->
+    <link rel="stylesheet" href="assets/css/style.css">
+
     <title>QUIZIT</title>
 </head>
 
 <body onload="NextQuestion(0)">
-    
+
     <header>
         <a href="index.html">
             <h1 class="heading">QUIZIT</h1>
@@ -23,8 +29,8 @@
 
     <main>
         <!-- creating a modal for when quiz ends -->
-    <div class="modal-container" id="score-modal">
-        <div class="modal-content-container">
+        <div class="modal-container" id="score-modal">
+            <div class="modal-content-container">
                 <h1>Congratulations, Quiz Completed.</h1>
                 <div class="grade-details">
                     <p>Attempts : 10</p>
@@ -32,8 +38,8 @@
                     <p>Right Answers : <span id="right-answers"></span></p>
                     <p>Grade : <span id="grade-percentage"></span>%</p>
                     <p><span id="remarks"></span></p>
-              </div>
-    <div class="modal-button-container">
+                </div>
+                <div class="modal-button-container">
                     <button onclick="closeScoreModal()">Continue</button>
                 </div>
 
@@ -49,7 +55,7 @@
             </div>
 
             <div class="game-question-container">
-                <h1 id="display-question"></h1>
+                <h1 id="display-question">Questions</h1>
             </div>
 
             <div class="game-options-container">
@@ -99,7 +105,7 @@
         </div>
     </main>
 
-<footer>
+    <footer>
         <ul class="social-media">
             <li>
                 <a href="https://facebook.com" target="_blank" rel="noopener"
@@ -122,7 +128,7 @@
 
     <script src="assets/js/script.js"> </script>
     <script src="https://kit.fontawesome.com/c0a2f2caac.js" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="assets/css/style.css"> 
+    <link rel="stylesheet" href="assets/css/style.css">
 
 </body>
 
