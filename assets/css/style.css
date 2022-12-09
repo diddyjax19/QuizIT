@@ -5,6 +5,7 @@ h1 {
     letter-spacing: 2px;
     color: black;
 }
+
 .heading {
     text-align: center;
     font-size: 2.5rem;
@@ -13,6 +14,7 @@ h1 {
     padding-top: 7px;
     letter-spacing: 5px;
 }
+
 h1 {
     font-family: 'Roboto', sans-serif;
     text-transform: uppercase;
@@ -221,6 +223,7 @@ input[type=radio]:checked ~ .option {
     display: flex;
     justify-content: center;
 }
+
 .next-button-container button{
     width: 8rem;
     height: 2rem;
@@ -232,6 +235,7 @@ input[type=radio]:checked ~ .option {
     cursor: pointer;
     outline: none;
 }
+
 .next-button-container button:hover{
     background-color: rgb(143, 93, 93);
 }
@@ -305,6 +309,7 @@ input[type=radio]:checked ~ .option {
     cursor: pointer;
     border-radius: 20px;
 }
+
 .modal-button-container button:hover{
     background-color: rgb(83, 82, 82);
 }
