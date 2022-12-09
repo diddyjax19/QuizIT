@@ -21,7 +21,8 @@ h1 {
     letter-spacing: 0px;
     color: black;
 }
-/* Links in Side bar Properly Styled */
+
+/*  Side bar Properly Styled */
 #mySidenav a {
     position: absolute;
     right: -80px;

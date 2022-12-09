@@ -204,7 +204,7 @@ The live link can be found here - https://diddyjax19.github.io/QuizIT/
     
     - Most code used to make the body in all the files where gotten from love math project.
     
-    - The code used to make the quiz area in all the files where gotten from Dev.to 
+    - The code used to make the quiz area in the files where gotten from Dev.to 
       https://dev.to/sulaimonolaniran/building-a-simple-quiz-with-html-css-and-javascript-4elp
 
     
