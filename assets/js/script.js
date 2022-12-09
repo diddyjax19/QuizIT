@@ -84,12 +84,10 @@ function checkForAnswer() {
     });
 }
 
-
 //when the subsequent button is pressed
 function handleNextQuestion() {
     checkForAnswer();
     unCheckRadioButtons();
-
 
     setTimeout(() => {
         if (indexNumber <= 9) {
