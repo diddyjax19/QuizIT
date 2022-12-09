@@ -1,6 +1,6 @@
 # QUIZIT
 
-QuizIT is a website that offer trivia on important sport and geographical issues.The project is design to help all user old and young be up to date about all things sport.It gives a real time Answer to each question.
+QuizIT is a website that offer trivia on important sport and geographical questions.The project is design to help all user old and young be up to date about all things Sport and Geography.It gives a real time Answer to each question.
 
 The QuizIT website also shows how JavaScript works in a real-world context.The site is targetted toward everyone who is inquisitive and looking for a challenge.QuizIT is a fully responsive website .
 
@@ -32,16 +32,16 @@ Responsive on all device sizes
 
       a. As a Frequent User, I want to check to see if there are any newly added challenges or hackathons.
       b. As a Frequent User, I want to check to see if there are any new blog posts.
-      c. As a Frequent User, I want to sign up to creat an account.
+      c. As a Frequent User, I want to sign up to create an account.
 
 
 ### Existing Features
 
 - __The QUIZIT Heading__
 
-  - Featured at the top of the page, the QuizIT heading is easy to see for the user. Upon viewing the page, the user will be able to see the name of the game and even if he goes to anothe page can easily come back to the game area.
+  - Featured at the top of the page, the QuizIT heading is easy to see for the user. Upon viewing the page, the user will be able to see the name of the game and even if he goes to another page can easily come back to the game area.
 
-![Logo](assets/screenshots/header .png)
+![Heading](assets/screenshots/header.png)
 
 - __The Quiz Area__
 
@@ -83,14 +83,18 @@ Responsive on all device sizes
 
 - HTML
     - No errors were returned when passing through the official 
-        [W3C validator][Home Page](https://validator.w3.org/nu/?doc=https%3A%2F%2Fdiddyjax19.github.io%2FQuizIT%2F)
-        [W3C validator][SignUp Page](https://validator.w3.org/nu/?doc=https%3A%2F%2Fdiddyjax19.github.io%2FQuizIT%2Fform.html)
+      [W3C validator]
+        [Home Page](https://validator.w3.org/nu/?doc=https%3A%2F%2Fdiddyjax19.github.io%2FQuizIT%2F)
+      [W3C validator]
+        [SignUp Page](https://validator.w3.org/nu/?doc=https%3A%2F%2Fdiddyjax19.github.io%2FQuizIT%2Fform.html)
 
 
 - CSS
     - No errors were found when passing through the official 
-        [(Jigsaw) validator][Home Page](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fdiddyjax19.github.io%2FQuizIT%2Findex.html&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en)
-        [(Jigsaw) validator][SignUp Page](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fdiddyjax19.github.io%2FQuizIT%2Fform.html&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en)
+      [(Jigsaw) validator]
+        [Home Page](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fdiddyjax19.github.io%2FQuizIT%2Findex.html&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en)
+      [(Jigsaw) validator]
+        [SignUp Page](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fdiddyjax19.github.io%2FQuizIT%2Fform.html&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en)
 
       
 - JavaScript
@@ -100,10 +104,16 @@ Responsive on all device sizes
       - Function with the largest signature take 1 arguments, while the median is 0.
       - Largest function has 16 statements in it, while the median is 3.
       - The most complex function has a cyclomatic complexity value of 9 while the median is 1.
+                Three unused variables
+                  88	handleNextQuestion.
+                  148	closeScoreModal.
+                  159	closeOptionModal.
 
-      - Accessibility
-    - I confirmed that the colors and Fonts chosen are easy to read and accessible by running it through Lighthouse in Devtools
-    <h2 align="center"><img src="https://github.com/diddyjax19/QuizIT/blob/main/assets/screenshots/1.png"></h2>    
+  - Accessibility
+
+  - I confirmed that the colors and Fonts chosen are easy to read and accessible by running it through Lighthouse in Devtools
+
+    <h2 align="center"><img src="https://github.com/diddyjax19/QuizIT/blob/main/assets/screenshots/lighthouse.png"></h2>
 ### Further Testing
 
 -   The Website was tested on Google Chrome, Internet Explorer, Microsoft Edge and Safari browsers.
@@ -118,6 +128,7 @@ Responsive on all device sizes
     1. As a First Time Visitor, I want to easily understand the main purpose of the site and learn more about the organisation.
 
         1. Upon entering the site, users are automatically greeted with a clean and easily readable navigation bar to go to the page of their choice.
+        
         2. The user has two options
           a. Scroll down and start and start answering the questions.
           b. Click the side bar and sign-up to be registered.
@@ -129,6 +140,7 @@ Responsive on all device sizes
         3. On the Signup Page, after a form response is submitted, the page refreshes and the user is brought to the top of the page where the navigation bar is.
 
     3. As a First Time Visitor, I want to look for testimonials to understand what their users think of them and see if they are trusted. I also want to locate their social media links to see their following on social media to determine how trusted and known they are.
+
         1. Once the new visitor visit the page he can immediately start the fun quiz,it is not a must to creat an account.
         2. The user can also scroll to the bottom of any page on the site to locate social media links in the footer.
         3. At the bottom of the Contact Us page, the user is told underneath the form, that alternatively they can contact the organisation on social media which highlights the links to them.

@@ -1,9 +1,8 @@
 /*jshint esversion: 6 */
 let shuffledQuestions = []; 
 
-
 function handleQuestions() {
-    //push 10 questions to the array of shuffled questions using this function.
+    //pushed 10 questions to the array of shuffled questions using this function.
     //The app would handle 10 queries every session.
     while (shuffledQuestions.length <= 9) {
         
