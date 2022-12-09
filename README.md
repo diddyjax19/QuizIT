@@ -47,21 +47,19 @@ Responsive on all device sizes
 
 - The QuizIT game can be played in this area. The user will find it simple to read the questions and choose the appropriate response from the choices A to D.
 
-
-![Game](assets/screenshots/Quiz area.png)
+  ![Game](assets/screenshots/Quizarea.png)
 
 - __The Option section__
 
   - - When the user chooses an option, he or she will will be able to see their response. If it is incorrect, the response will be highlighted in red, and if it is correct, it will be highlighted in green.
 
-  ![Question](assets/screenshots/options area.png)
+  ![Question](assets/screenshots/optionsarea.png)
 
 - __The Score Area__
 
   -  At the top of the screen, the user can also see how many questions they have answered and how many of them were correct.
 
-  ![Score](/workspace/QuizIT/assets/screenshots/scorearea.png)
-  
+  ![Score](assets/screenshots/scorearea.png)
 
  __The SignUp section__
 
@@ -79,7 +77,7 @@ Responsive on all device sizes
 
   - In this area,at the side of the screen you can see the quick link,that if clicked can go the home page and the sign-up page.
 
-  ![Menu](assets/screenshots/123.png)
+  ![Menu](assets/screenshots/menu.png)
 
 ### Validator Testing 
 
