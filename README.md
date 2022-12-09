@@ -4,6 +4,9 @@ QuizIT is a website that offer trivia on important sport and geographical issues
 
 The QuizIT website also shows how JavaScript works in a real-world context.The site is targetted toward everyone who is inquisitive and looking for a challenge.QuizIT is a fully responsive website .
 
+<h2 align="center"><img src="https://github.com/diddyjax19/QuizIT/blob/main/assets/screenshots/responsive1.png"></h2>
+
+
 [View the live project here.](https://diddyjax19.github.io/QuizIT/index.html)
 
 Responsive on all device sizes
