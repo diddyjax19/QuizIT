@@ -202,8 +202,7 @@ The live link can be found here - https://diddyjax19.github.io/QuizIT/
 
     - The code used to make the footers in all the files where gotten from love running project.
     
-    - The code used to make the body in all the files where gotten from love math project.
-
+    - Most code used to make the body in all the files where gotten from love math project.
     
 
 #### Colour Scheme
@@ -242,3 +241,5 @@ The live link can be found here - https://diddyjax19.github.io/QuizIT/
 - My Mentor for continuous helpful feedback.
 
 - Tutor support at Code Institute for their support.
+
+
