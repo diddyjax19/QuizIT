@@ -209,7 +209,7 @@ The live link can be found here - https://diddyjax19.github.io/QuizIT/
 #### Colour Scheme
 
  - The colours used are In QuizIT Websites are Black,Grey,dogerblue,blue,green-cyan,cyan-blue and white.
- 
+
  - In order to pick the background and text color i used the color grid  tool [Color Grid](https://contrast-grid.eightshapes.com//HTML5) . This provide appropriate information to make a better decision when choosing my colors.
    
 
@@ -242,4 +242,6 @@ The live link can be found here - https://diddyjax19.github.io/QuizIT/
 - My Mentor for continuous helpful feedback.
 
 - Tutor support at Code Institute for their support.
+
+- 
 
