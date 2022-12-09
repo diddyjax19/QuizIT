@@ -191,27 +191,30 @@ Responsive on all device sizes
 4. Under "Source", click the dropdown called "None" and select "Main".
 5. The page will automatically refresh.
 6. Scroll back down through the page to locate the now published site [link](https://diddyjax19.github.io/QuizIT/) in the "GitHub Pages" section.
-
-
 The live link can be found here - https://diddyjax19.github.io/QuizIT/
 ### Credit 
 
 - Content
-    - The Qestions for the Home page was taken from https://www.cosmopolitan.com/
+
+    - The Qestions for the Home page was taken from https://www.quizbreaker.com/trivia-questions.
+
     - Instructions on how to implement form validation on the Sign Up page was taken from w3schools.
-    - Content The code used to make the footers in all the files where gotten from love running project.
-    - Content The code used to make the body in all the files where gotten from love math project.
+
+    - The code used to make the footers in all the files where gotten from love running project.
+    
+    - The code used to make the body in all the files where gotten from love math project.
+
     
 
 #### Colour Scheme
 
  - The colours used are In QuizIT Websites are Black,Grey,dogerblue,blue,green-cyan,cyan-blue and white.
+ 
  - In order to pick the background and text color i used the color grid  tool [Color Grid](https://contrast-grid.eightshapes.com//HTML5) . This provide appropriate information to make a better decision when choosing my colors.
    
 
-   #### Typography
+#### Typography
    -   The Roboto font is the main font used throughout the whole website with Sans Serif as the fallback font in case for any reason the font isn't being imported into the site correctly. 
-
 
 - [Font Awesome](https://fontawesome.com/)
     - The icons in the footer were taken from 
