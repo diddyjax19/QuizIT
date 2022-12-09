@@ -242,6 +242,3 @@ The live link can be found here - https://diddyjax19.github.io/QuizIT/
 - My Mentor for continuous helpful feedback.
 
 - Tutor support at Code Institute for their support.
-
-- 
-
