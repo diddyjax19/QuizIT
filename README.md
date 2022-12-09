@@ -54,13 +54,14 @@ Responsive on all device sizes
 
   - - When the user chooses an option, he or she will will be able to see their response. If it is incorrect, the response will be highlighted in red, and if it is correct, it will be highlighted in green.
 
-![Question](assets/screenshots/options area.png)
+  ![Question](assets/screenshots/options area.png)
 
 - __The Score Area__
 
   -  At the top of the screen, the user can also see how many questions they have answered and how many of them were correct.
 
-![score](assets/screenshots/score area.png)
+  ![Score](/workspace/QuizIT/assets/screenshots/scorearea.png)
+  
 
  __The SignUp section__
 
