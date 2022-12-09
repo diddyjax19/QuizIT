@@ -205,8 +205,9 @@ The live link can be found here - https://diddyjax19.github.io/QuizIT/
 
 #### Colour Scheme
 
-    - The colours used are In QuizIT Websites are Black,Grey,dogerblue,blue,green-cyan,cyan-blue and white.
-    - In order to pick the background and text color i used the color grid  tool [Color Grid](https://contrast-grid.eightshapes.com//HTML5) . This provide appropriate information to make a better decision when choosing my colors.
+ - The colours used are In QuizIT Websites are Black,Grey,dogerblue,blue,green-cyan,cyan-blue and white.
+ - In order to pick the background and text color i used the color grid  tool [Color Grid](https://contrast-grid.eightshapes.com//HTML5) . This provide appropriate information to make a better decision when choosing my colors.
+   
 
    #### Typography
    -   The Roboto font is the main font used throughout the whole website with Sans Serif as the fallback font in case for any reason the font isn't being imported into the site correctly. 
