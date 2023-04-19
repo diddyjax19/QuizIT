@@ -9,9 +9,6 @@ The QuizIT website also shows how JavaScript works in a real-world context.The s
 
 [View the live project here.](https://diddyjax19.github.io/QuizIT/index.html)
 
-Responsive on all device sizes
-        Link [View](http://www.responsinator.com/?url=https%3A%2F%2Fdiddyjax19.github.io%2FQuizIT%2Findex.html)
-
 # User Experience (UX)
 
   - User stories
@@ -20,7 +17,7 @@ Responsive on all device sizes
 
       a. As a First Time Visitor, I want to easily understand the main purpose of the site and learn more about the organisation.
       b. As a First Time Visitor, I want to be able to easily navigate throughout the site to find content.
-      c.As a First Time Visitor, I want to look for testimonials to understand what their users think of them and see if they are trusted. I also want to locate their social media links to see their followings on social media to determine how trusted and known they are.
+      c. As a First Time Visitor, I want to be able to enjo
 
     - Returning Visitor Goals.
 
@@ -31,8 +28,7 @@ Responsive on all device sizes
     - Frequent User Goals.
 
       a. As a Frequent User, I want to check to see if there are any newly added challenges or hackathons.
-      b. As a Frequent User, I want to check to see if there are any new blog posts.
-      c. As a Frequent User, I want to sign up to create an account.
+      b. As a Frequent User, I want to create a username.
 
 
 ### Existing Features
