@@ -45,9 +45,9 @@ The QuizIT website also shows how JavaScript works in a real-world context.The s
 
   ![Game](assets/screenshots/Quizarea.png)
 
-- __The Option section__
+- __The Welcome Area__
 
-  - - When the user chooses an option, he or she will will be able to see their response. If it is incorrect, the response will be highlighted in red, and if it is correct, it will be highlighted in green.
+  - - This is the First page,the page contains instructions on how to play the game and .
 
   ![Question](assets/screenshots/optionsarea.png)
 
