@@ -1,131 +1,74 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-    <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!-- font awesome and google fonts -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
-    <script src="https://kit.fontawesome.com/c0a2f2caac.js" crossorigin="anonymous"></script>
-
-    <!-- Stylesheet -->
-    <link rel="stylesheet" href="assets/css/style.css">
     
+    <!--Import Google Icon Font-->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet"> 
+    <!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <title>QUIZ-GAME -PraRoz Tutorial</title>
 
-    <title>QUIZIT</title>
+     <!-- Stylesheet -->
+     <link rel="stylesheet" href="assets/css/style.css">
+
 </head>
-
-<body onload="NextQuestion(0)">
-
-    <header>
-        <a href="index.html">
-            <h1 class="heading">QUIZIT</h1>
-        </a>
-        <div id="mySidenav" class="sidenav">
-            <a href="index.html" id="home">Home</a>
-            <a href="form.html" class="active" id="signup">Signup</a>
+<body>
+    <!--Materialize CSS for Home Page Design-->
+    <nav class="nav-wrapper black">
+        <div class="container">
+            <a href="index.html" class="brand-logo center">QUIZ</a>
         </div>
+    </nav>
 
-    </header>
+    <section class="container section">
+        <div class="row">
+            <div class="col s12 l6 offset-l3">
+                <form class="myform" name="id" onsubmit="submitted(event)">
+                <h4 class="center-align white-text">CONTESTENT NAME</h4>
+            
+                <div class="progress yellow">
+                    <div class="indeterminate"></div>
+                </div>
 
-    <main>
-        <!-- creating a modal for when quiz ends -->
-        <div class="modal-container" id="score-modal">
-            <div class="modal-content-container">
-              <h1>Congratulations, Quiz Completed.</h1>
-             <div class="grade-details">
-                    <p>Attempts : 10</p>
-                    <p>Wrong Answers : <span id="wrong-answers"></span></p>
-                    <p>Right Answers : <span id="right-answers"></span></p>
-                    <p>Grade : <span id="grade-percentage"></span>%</p>
-                    <p><span id="remarks"></span></p>
-             </div>
-             <div class="modal-button-container">
-                   <button onclick="closeScoreModal()">Continue</button>
-             </div>
+                <div class="input-field">
+                    <i class="material-icons white-text prefix">account_box</i>
+                    <input type="text" class="white-text" id="name">
+                    <label for="name">Name Here</label>
+                    <p class="center"><button type="submit" class="btn blue" 
+                        onclick="this.style.display='none'">Submit Name</button></p>
+                </div>
 
+                <div>
+                    <p class="white-text green">QUIZ RULES :</p>
+                    <p class="black-text white ">1. YOU CANNOT SKIP ANY QUESTIONS.</p>
+                    <p class="black-text white ">2. YOU CANNOT GO TO PREVIOUS QUESTION.</p>
+                    <p class="black-text white ">3. TRY ATTEMPTING ALL WITHOUT CHEATING.</p>
+                </div>
+
+                <div class="progress yellow">
+                    <div class="indeterminate"></div>
+                </div>
+
+                <p class="center"><a href="quiz.html" class="btn blue">Let's Start</a></p>
+                
+            </form>
             </div>
         </div>
-        <!-- end of modal of quiz details-->
-
-        <div class="game-quiz-container">
-
-           <div class="game-details-container">
-                <h1>Score : <span id="player-score"></span> / 10</h1>
-                <h1> Question : <span id="question-number"></span> / 10</h1>
-            </div>
-
-            <div class="game-question-container">
-                <h1 id="display-question">Questions</h1>
-            </div>
-
-            <div class="game-options-container">
-                <div class="modal-container" id="option-modal">
-
-                     <div class="modal-content-container">
-                        <h1>Please Pick An Option</h1>
-
-                    <div class="modal-button-container">
-                 <button onclick="closeOptionModal()">Continue</button>
-                     </div>
-            </div>
-
-        </div>
-        <span>
-             <input type="radio" id="option-one" name="option" class="radio" value="optionA">
-             <label for="option-one" class="option" id="option-one-label"></label>
-         </span>
-         
-         <span>
-             <input type="radio" id="option-two" name="option" class="radio" value="optionB">
-             <label for="option-two" class="option" id="option-two-label"></label>
-          </span>
-          
-          <span>
-              <input type="radio" id="option-three" name="option" class="radio" value="optionC">
-              <label for="option-three" class="option" id="option-three-label"></label>
-          </span>
-
-          <span>
-             <input type="radio" id="option-four" name="option" class="radio" value="optionD">
-             <label for="option-four" class="option" id="option-four-label"></label>
-           </span>
-
-        </div>
-        <div class="next-button-container">
-            <button onclick="handleNextQuestion()">Next Question</button>
-        </div>
-
-        </div>
-    </main>
-
-    <footer>
-        <ul class="social-media">
-            <li>
-                <a href="https://facebook.com" target="_blank" rel="noopener"
-                    aria-label="Visit our Facebook Page (Open in a new tab)"><i class="fa-brands fa-facebook-f"></i></a>
-            </li>
-            <li>
-                <a href="https://youtube.com" target="_blank" rel="noopener"
-                    aria-label="Visit our Youtube Page (Open in a new tab)"><i class="fa-brands fa-youtube"></i></a>
-            </li>
-            <li>
-                <a href="https://twitter.com" target="_blank" rel="noopener"
-                    aria-label="Visit our Twitter Page (Open in a new tab)"><i class="fa-brands fa-twitter"></i></a>
-            </li>
-            <li>
-                <a href="https://instagram.com" target="_blank" rel="noopener"
-                    aria-label="Visit our Instagram Page (Open in a new tab)"><i class="fa-brands fa-instagram"></i></a>
-            </li>
-        </ul>
-    </footer>
-
-    <script src="assets/js/script.js"> </script>
-  
+    </section>
    
 
-</body>
+<!-- Compiled and minified JavaScript -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+ 
+<script>
+    function submitted(e){
+        e.preventDefault();
 
+        let namee = document.forms["id"]["name"].value;
+        sessionStorage.setItem("name", namee);
+    }
+</script>
+
+</body>
 </html>

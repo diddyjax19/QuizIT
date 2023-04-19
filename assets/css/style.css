@@ -1,323 +1,19 @@
-/* ----- Heading ------*/
-h1 {
-    font-family: 'Roboto', sans-serif;
-    text-transform: uppercase;
-    letter-spacing: 2px;
-    color: black;
-}
-
-.heading {
-    text-align: center;
-    font-size: 2.5rem;
-    padding-right: 50px;
-    padding-bottom: 10px;
-    padding-top: 7px;
-    letter-spacing: 5px;
-}
-
-h1 {
-    font-family: 'Roboto', sans-serif;
-    text-transform: uppercase;
-    letter-spacing: 0px;
-    color: black;
-}
-
-/*  Side bar Properly Styled */
-#mySidenav a {
-    position: absolute;
-    right: -80px;
-    transition: 0.3s;
-    padding: 12px;
-    width: 100px;
-    text-decoration: none;
-    font-size: 20px;
-    color: white;
-    border-radius: 0 5px 5px 0;
-  }
-  
-  #mySidenav a:hover {
-    right: 0;
-  }
-  
-  #home {
-    top: 20px;
-    background-color: #04AA6D;
-  }
-  #signup {
-    top: 80px;
-    background-color: #2196F3;
-  }
-  /* Added padding to containers */
-  .container {
-    padding: 16px;
-    background-color: white;
-  }
-  
-  /* Full-width input fields */
-  input[type=text], input[type=password] {
-    width: 100%;
-    padding: 15px;
-    margin: 5px 0 22px 0;
-    display: inline-block;
-    border: none;
-    background: #f1f1f1;
-  }
-  
-  input[type=text]:focus, input[type=password]:focus {
-    background-color: #ddd;
-    outline: none;
-  }
-  
-  /* Code to Overwrite default styles of hr */
-  hr {
-    border: 1px solid #f1f1f1;
-    margin-bottom: 25px;
-  }
-  
-  /* Code to Set a style for the submit button */
-  .registerbtn {
-    background-color: #04AA6D;
-    color: white;
-    padding: 16px 20px;
-    margin: 8px 0;
-    border: none;
-    cursor: pointer;
-    width: 100%;
-    opacity: 0.9;
-  }
-  
-  .registerbtn:hover {
-    opacity: 1;
-  }
-  
-  /*Code to Add a blue text color to links */
-  
-  a {
-    color: dodgerblue;
-  }
-  
-  /*Code to Set a grey background color and center the text of the "sign in" section */
-
-  .signin {
-    background-color: grey;
-    text-align: center;
-  }
-
-  /*Properly styling the questions parameter*/
-
-  *{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
-html, body{
-    height: 100%;
-}
-
+/* Index pagee styles */
 body{
-    font-family: 'Klee One', serif;
-
-}
-
-main{
-    width: 100%;
-    min-height: 100vh;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    background-color: goldenrod;
-    background: url('../image/para1.WebP');
-    background-color : white;
-    background-repeat: no-repeat;
-    background-size: cover;
+    background-image: url(hero1.jpg);
     background-position: center;
+    background-size: cover;
+    height: 100vh;
 }
 
-.game-quiz-container{
-    width: 40rem;
-    height: 30rem;
-    background-color: lightgray;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: space-around;
-    border-radius: 30px;
+P{
+    padding: 8px;
 }
 
-.game-details-container{
-    width: 80%;
-    height: 4rem;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-}
+/* Footer */
 
-.game-details-container h1{
-    font-size: 1.2rem;
-}
-
-.game-question-container{
-    width: 80%;
-    height: 8rem;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    border: 2px solid darkgray;
-    border-radius: 25px;
-}
-
-.game-question-container h1{
-    font-size: 1.1rem;
-    text-align: center;
-    padding: 3px;
-}
-
-.game-options-container{
-    width: 80%;
-    height: 12rem;
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-    justify-content: space-around;
-}
-
-.game-options-container span{
-    width: 45%;
-    height: 3rem;
-    border: 2px solid blue;
-    border-radius: 20px;
-    overflow: hidden;
-}
-span label{
-    width: 100%;
-    height: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    cursor: pointer;
-    transition: transform 0.3s;
-    font-weight: 600;
-    color: rgb(22, 22, 22);
-}
-
-span label:hover{
-    -ms-transform: scale(1.12);
-    -webkit-transform: scale(1.12);
-    transform: scale(1.12);
-    color: white;
-}
-
-input[type="radio"] {
-    position: relative;
-    display: none;
-}
-
-input[type=radio]:checked ~ .option {
-    background: paleturquoise;
-}
-
-.next-button-container{
-    width: 50%;
-    height: 3rem;
-    display: flex;
-    justify-content: center;
-}
-
-.next-button-container button{
-    width: 8rem;
-    height: 2rem;
-    border-radius: 10px;
-    background: none;
-    color: rgb(25, 25, 25);
-    font-weight: 600;
-    border: 2px solid gray;
-    cursor: pointer;
-    outline: none;
-}
-
-.next-button-container button:hover{
-    background-color: rgb(143, 93, 93);
-}
-
-.modal-container{
-    display: none;
-    position: fixed;
-    z-index: 1; 
-    left: 0;
-    top: 0;
-    width: 100%; 
-    height: 100%; 
-    overflow: auto; 
-    background-color: rgb(0,0,0); 
-    background-color: rgba(0,0,0,0.4); 
-    flex-direction: column;
-    align-items: center;
-    justify-content: center; 
-    -webkit-animation: fadeIn 1.2s ease-in-out;
-    animation: fadeIn 1.2s ease-in-out;
-}
-
-.modal-content-container{
-    height: 20rem;
-    width: 25rem;
-    background-color: rgb(43, 42, 42);
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: space-around;
-    border-radius: 25px;
-}
-
-.modal-content-container h1{
-    font-size: 1.3rem;
-    height: 3rem;
-    color: lightgray;
-    text-align: center;
-}
-
-.grade-details{
-    width: 15rem;
-    height: 10rem;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: space-around;
-}
-
-.grade-details p{
-    color: white;
-    text-align: center;
-}
-
-.modal-button-container{
-    height: 2rem;
-    width: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-.modal-button-container button{
-    width: 10rem;
-    height: 2rem;
-    background: none;
-    outline: none;
-    border: 1px solid rgb(252, 242, 241);
-    color: white;
-    font-size: 1.1rem;
-    cursor: pointer;
-    border-radius: 20px;
-}
-
-.modal-button-container button:hover{
-    background-color: rgb(83, 82, 82);
-}
-
-/* Code to styling the Footer */
 footer{
-    height: 150px;
+    height: 200px;
 }
 
 .social-media {
@@ -330,82 +26,128 @@ footer{
 }
 
 .social-media i{
-    font-size: 160%;
+    font-size: 200%;
     margin: 1%;
     padding: 5%;
-    color: #3a3a3a;
+    color: red;
 }
 
-/* Media Query */
 
-@media(min-width : 300px) and (max-width : 350px){
-    .game-quiz-container{
-        width: 90%;
-        height: 80vh;
-     }
-     .game-details-container h1{
-        font-size: 0.8rem;
-     }
-
-     .game-question-container{
-        height: 6rem;
-     }
-     .game-question-container h1{
-       font-size: 0.9rem;
-    }
-
-    .game-options-container span{
-        width: 90%;
-        height: 2.5rem;
-    }
-    .game-options-container span label{
-        font-size: 0.8rem;
-    }
-    .modal-content-container{
-        width: 90%;
-        height: 25rem;
-    }
-
-    .modal-content-container h1{
-        font-size: 1.2rem;
-    }
-}
-
-@media(min-width : 350px) and (max-width : 700px){
-   .game-quiz-container{
-       width: 90%;
-       height: 80vh;
-    }
-    .game-details-container h1{
-        font-size: 1rem;
-    }
-
-    .game-question-container{
-        height: 8rem;
-    }
-
-    .game-question-container h1{
-        font-size: 0.9rem;
-     }
-
-    .game-options-container span{
-        width: 90%;
-    }
-    .modal-content-container{
-        width: 90%;
-        height: 25rem;
-    }
-    .modal-content-container h1{
-        font-size: 1.2rem;
-    }
-}
-
-@keyframes fadeIn {
-    from {opacity: 0;}
-    to {opacity:1 ;}
-  }
-
-  @-webkit-keyframes fadeIn {
-    from {opacity: 0;}
-    to {opacity: 1;}
-  }
+/* Quiz enviroment Styles */
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;   
+   }
+   
+   body{
+       background-image: url(hero1.jpg);
+       background-position: center;
+       background-size: cover;
+       height: 100vh;
+       font-family: sans-serif;
+   }
+   
+   .wrapper{
+       display: flex;
+       justify-content: center;
+       align-items: center;
+       width: 100vw;
+       height: 100vh;
+   }
+   
+   .quiz{
+       display: grid;
+       grid-template-rows: 60px auto;
+       width: 600px;
+       height: 500px;
+       border-radius: 50px;
+   }
+   
+   .quiz_header{
+       display: flex;
+       justify-content: space-between;
+       border-bottom-left-radius: 3px;
+       border-bottom-right-radius: 3px;
+       background-color: #fff;
+       box-shadow: 0px 2px 5px 1px rgba(0, 0, 0, 0.1);
+       z-index: 1;
+   }
+   
+   .quiz_user{
+       display: flex;
+       align-items: center;
+       height: 100%;
+       padding-left: 30px;
+   }
+   
+   .quiz_body{
+       padding: 20px 30px;
+       background-color: skyblue;
+   }
+   
+   .option_group{
+       list-style-type: none;
+       margin: 30px 0;
+   }
+   
+   .option{
+       display: block;
+       width: 300px;
+       background-color: #fff;
+       margin-bottom: 20px;
+       padding: 15px 20px;
+       border-radius: 50px;
+       border: 2px solid transparent;
+       transition: 0.4s all;
+   }
+   
+   .option:hover{
+       cursor: pointer;
+       border: 2px solid #341f97;
+       color: #341f97;
+   }
+   
+   .option.active{
+       background-color: #341f97;
+       color: #fff;
+   }
+   
+   .btn-next{
+       border: none;
+       padding: 15px 35px;
+       background-color: #341f97;
+       color: #fff;
+       border-radius: 50px;
+       transition: 0.4s all;
+   }
+   
+   .btn-next:hover{
+       cursor: pointer;
+       background-color: greenyellow;
+       color: #000;
+   }
+   
+   .award_icon{
+       display: block;
+       font-size: 300px;
+       color: #fff;
+   }
+   
+   .username, .userpoints{
+       color: #fff;
+       text-align: center;
+       margin-top: 15px;
+   }
+   
+   .border{
+       height: 500px;
+       width: 500px;
+       display: block;
+       justify-content: center;
+       margin: 0px 400px;
+       border-radius: 10px;
+       top: 100px;
+       border-color: transparent;
+   }
+   
