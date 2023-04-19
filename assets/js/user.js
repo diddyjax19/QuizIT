@@ -5,7 +5,7 @@ let user_points = sessionStorage.getItem("points");
 user_points = sanitizeInput(user_points);
 
 if (!isValidName(user_name)) {
-    alert("Invalid name. Please enter a valid name.");
+    alert("Invalid name. Please enter a valid Username.");
     window.location.href = "index.html";
 }
 
