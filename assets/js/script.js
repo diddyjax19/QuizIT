@@ -111,60 +111,120 @@ let questions = [
           
         ]
       },
+    {
+        id: 11,
+        question: "What does CSS stand for?",
+        answer: "Cascading Style Sheet",
+        options: [
+        "Common Style Sheet",
+        "Colorful Style Sheet",
+        "Computer Style Sheet",
+        "Cascading Style Sheet"
+          
+        ]
+      },
+
+      {
+        id: 12,
+        question: "What does PHP stand for?",
+        answer: "Hypertext Preprocessor",
+        options: [
+          "Hypertext Preprocessor",
+          "Hypertext Programming",
+          "Hypertext Preprogramming",
+          "Hometext Preprocessor"
+          
+        ]
+      },
 ];
 
-let question_count = 1;
+let question_count = 0;
 let points = 0;
+let shuffled_questions = questions.sort(() => Math.random() - 0.5); // shuffle the questions
 
+let timer = document.getElementById("timer");
+let time_left = 20; // sent the time to 20 seconds per question
+let interval = null;
 
-window.onload = function(){
-    show(question_count);
+window.onload = function () {
+    show(shuffled_questions[question_count]);
 };
 
-function show(count){
-    let question = document.getElementById("questions");
-    let[first, second, third, fourth] = questions[count].options;
+function show(question) {
+    clearInterval(interval);
+    time_left = 20; // reset time limit per question
+    interval = setInterval(() => {
+        time_left--;
+        timer.innerHTML = `Time Left: ${time_left} seconds`;
+        if (time_left === 0) {
+            clearInterval(interval);
+            next();
+        }
+    }, 1000);
 
-    question.innerHTML = `<h2>Q${count + 1}. ${questions[count].question}</h2>
+    let questionElement = document.getElementById("questions");
+    let [first, second, third, fourth] = question.options;
+
+    questionElement.innerHTML = `<h2>Q${question.id}. ${question.question}</h2>
     <ul class="option_group">
     <li class="option">${first}</li>
     <li class="option">${second}</li>
     <li class="option">${third}</li>
     <li class="option">${fourth}</li>
     </ul>`;
-    toggleActive();  
+    toggleActive();
 }
 
-function toggleActive(){
+function toggleActive() {
     let option = document.querySelectorAll("li.option");
-    for(let i=0; i < option.length; i++){
-        option[i].onclick = function(){
-            for(let i=0; i < option.length; i++){
-                if(option[i].classList.contains("active")){
+    for (let i = 0; i < option.length; i++) {
+        option[i].onclick = function () {
+            for (let i = 0; i < option.length; i++) {
+                if (option[i].classList.contains("active")) {
                     option[i].classList.remove("active");
                 }
             }
             option[i].classList.add("active");
+        };
+    }
+}
+
+function next() {
+    let selectedOption = document.querySelector("li.option.active");
+    if (!selectedOption) {
+        alert("Please select an option!");
+        return;
+    }
+
+    let user_answer = selectedOption.innerHTML;
+    let shuffled_question = shuffled_questions[question_count];
+    if (user_answer == shuffled_question.answer) {
+        points += 10;
+        sessionStorage.setItem("points", points);
+    } else {
+        let options = document.querySelectorAll("li.option");
+        for (let i = 0; i < options.length; i++) {
+            if (options[i].innerHTML === shuffled_question.answer) {
+                options[i].classList.add("correct");
+            }
         }
     }
-}
 
-function next(){
-
-    if(question_count == questions.length -1){
+    question_count++;
+    if (question_count == shuffled_questions.length) {
+        clearInterval(interval);
         location.href = "end.html";
+        return;
     }
-    console.log(question_count);
-
-
-let user_answer = document.querySelector("li.option.active").innerHTML;
-
-if(user_answer == questions[question_count].answer){
-    points += 10;
-    sessionStorage.setItem("points",points);
+    show(shuffled_questions[question_count]);
 }
-console.log(points);
 
-question_count++;
-show(question_count);
+function exit() {
+    clearInterval(interval);
+    location.href = "end.html";
+}
+
+function restart() {
+    sessionStorage.setItem("points", 0);
+    location.href = "index.html";
 }

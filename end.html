@@ -7,26 +7,22 @@
     <title>Congratulations</title>
 </head>
 <body>
-       <!--Materialize CSS for Home Page Design-->
-       <nav class="nav-wrapper black">
-        <div class="container">
-            <a href="index.html" class="brand-logo center">QUIZ</a>
-        </div>
-    </nav>
-
-
-    <!--Award and Score Card-->
-    <div class="wrapper">
+      
+     <!--Award and Score Card-->
+     <div class="wrapper">
         <div class="border">
             <i class="fas fa-award award_icon" style="margin: 10px 0px 0px 130px; color: gold;"></i>
             <h1 class="username"><span class="name" style="font-size: 50px; color: #fff;"></span><br>WELL DONE !</h1>
-            <p class="userpoints">Your Points <span class="points" style="color: greenyellow;"></span></p>
-            <div class="buttons">
-                <button class="restart">Replay Quiz</button>
-                <button class="quit">Quit Quiz</button>
+            <p class="userpoints">Your Points <span class="points" style=" font-size: 30px; color:  greenyellow;"></span></p>
+            
+            <div class="next-button-container">
+            <a href="quiz.html">
+            <button class="btn-next" onclick="restart()"style="position:relative; left:100px;">Restart</button>
+            </a>
+            <a href="index.html">
+            <button class="btn-exit" onclick="exit()"style="position:relative; left:100px;">End Game</button>
+            </a>
             </div>
-            </div>
-    
         </div>
     </div>
       

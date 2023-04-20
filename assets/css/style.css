@@ -1,4 +1,4 @@
-/* Index pagee styles */
+/* Index page styles */
 body{
     background-image: url(hero.jpg);
     background-position: center;
@@ -127,8 +127,37 @@ footer{
        background-color: greenyellow;
        color: #000;
    }
-   
-   .award_icon{
+
+   .btn-exit{
+    border: none;
+    padding: 15px 35px;
+    background-color: red;
+    color: #fff;
+    border-radius: 50px;
+    transition: 0.4s all;
+}
+
+.btn-exit:hover{
+    cursor: pointer;
+    background-color: greenyellow;
+    color: #000;
+}
+ 
+.btn-restart{
+    border: none;
+    padding: 15px 35px;
+    background-color: green;
+    color: #fff;
+    border-radius: 50px;
+    transition: 0.4s all;
+}
+
+.btn-restart:hover{
+    cursor: pointer;
+    background-color: greenyellow;
+    color: #000;
+}
+.award_icon{
        display: block;
        font-size: 300px;
        color: #fff;
