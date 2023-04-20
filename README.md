@@ -7,7 +7,7 @@ The QuizIT website also shows how JavaScript works in a real-world context.The s
 <h2 align="center"><img src="assets/screenshots/responsive.png"></h2>
 
 
-[View the live project here.](https://diddyjax19.github.io/QuizIT/index.html)
+[View the live project here.](https://diddyjax19.github.io/QuizIT/)
 
 # User Experience (UX)
 
