@@ -37,37 +37,37 @@ The QuizIT website also shows how JavaScript works in a real-world context.The s
 
   - Featured at the top of the page, the QuizIT heading is easy to see for the user. Upon viewing the page, the user will be able to see the name of the game.
 
-![Heading](assets/screenshots/header.png)
+![Heading](assets/screenshots/logo.png)
 
 - __The Quiz Area__
 
 - The QuizIT game can be played in this area. The user will find it simple to read the questions and choose the appropriate response from the choices A to D.
 
-  ![Game](assets/screenshots/Quizarea.png)
+  ![Game](assets/screenshots/questionpage.png)
 
 - __The Username Area__
 
   - - This is in the welcome page,it is compulsory to create a valid Username,to proceed into the game you need to create a valid username,{Numbers,letters,symmbols are not allowed} .
 
-  ![Question](assets/screenshots/optionsarea.png)
+  ![Question](assets/screenshots/username.png)
 
 - __The Rules Box__
 
   -  This section reveals the rules of the game and instructions of the game.
 
-  ![Score](assets/screenshots/scorearea.png)
+  ![Score](assets/screenshots/Rules.png)
 
- __The Quiz section__
+ __The Full View Of the Welcome Page__
 
-  - In this area,you have the lists of Computer trivia questions to answer.
+  - This is just a screenshot of the front page.
 
-  ![SignUp](assets/screenshots/form1.png)
+  ![Front Page](assets/screenshots/welcomepage.png)
 
   __The Points and Congratulation section__
 
   - In this area,you can view your score with is unique to your Username.
 
-  ![Footer](assets/screenshots/footer.png)
+  ![Footer](assets/screenshots/badgeandscooreboard.jpg.png)
 
  
 

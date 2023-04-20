@@ -10,29 +10,6 @@ P{
     padding: 8px;
 }
 
-/* Footer */
-
-footer{
-    height: 200px;
-}
-
-.social-media {
-    text-align: center;
-
-}
-
-.social-media li{
-    display: inline;
-}
-
-.social-media i{
-    font-size: 200%;
-    margin: 1%;
-    padding: 5%;
-    color: red;
-}
-
-
 /* Quiz enviroment Styles */
 *{
     padding: 0;
@@ -45,7 +22,7 @@ footer{
        background-position: center;
        background-size: cover;
        height: 100vh;
-       font-family: sans-serif;
+       font-family: 'Roboto', sans-serif;
    }
    
    .wrapper{
@@ -157,6 +134,8 @@ footer{
     background-color: greenyellow;
     color: #000;
 }
+
+
 .award_icon{
        display: block;
        font-size: 300px;
