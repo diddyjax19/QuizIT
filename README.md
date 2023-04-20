@@ -43,19 +43,19 @@ The QuizIT website also shows how JavaScript works in a real-world context.The s
 
 - The QuizIT game can be played in this area. The user will find it simple to read the questions and choose the appropriate response from the choices A to D.
 
-  ![Game](assets/screenshots/questionpage.png)
+  ![Quiz](assets/screenshots/questionpage.png)
 
 - __The Username Area__
 
   - - This is in the welcome page,it is compulsory to create a valid Username,to proceed into the game you need to create a valid username,{Numbers,letters,symmbols are not allowed} .
 
-  ![Question](assets/screenshots/username.png)
+  ![Username](assets/screenshots/username.png)
 
 - __The Rules Box__
 
   -  This section reveals the rules of the game and instructions of the game.
 
-  ![Score](assets/screenshots/Rules.png)
+  ![Rules Box](assets/screenshots/Rules.png)
 
  __The Full View Of the Welcome Page__
 
@@ -67,7 +67,7 @@ The QuizIT website also shows how JavaScript works in a real-world context.The s
 
   - In this area,you can view your score with is unique to your Username.
 
-  ![Footer](assets/screenshots/badgeandscooreboard.jpg.png)
+  ![End Page](assets/screenshots/badgeandscooreboard.jpg.png)
 
  
 
@@ -76,9 +76,11 @@ The QuizIT website also shows how JavaScript works in a real-world context.The s
 - HTML
     - No errors were returned when passing through the official 
       [W3C validator]
-        [Home Page](https://validator.w3.org/nu/?doc=https%3A%2F%2Fdiddyjax19.github.io%2FQuizIT%2F)
+        [Welcome Page](https://validator.w3.org/nu/?doc=https%3A%2F%2Fdiddyjax19.github.io%2FQuizIT%2Findex.html)
       [W3C validator]
-        [SignUp Page](https://validator.w3.org/nu/?doc=https%3A%2F%2Fdiddyjax19.github.io%2FQuizIT%2Fform.html)
+        [Quiz Page](https://validator.w3.org/nu/?doc=https%3A%2F%2Fdiddyjax19.github.io%2FQuizIT%2Fquiz.html)
+      [W3C validator]
+        [Congratulation Page](https://validator.w3.org/nu/?doc=https%3A%2F%2Fdiddyjax19.github.io%2FQuizIT%2Fend.html)
 
 
 - CSS
@@ -86,7 +88,9 @@ The QuizIT website also shows how JavaScript works in a real-world context.The s
       [(Jigsaw) validator]
         [Home Page](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fdiddyjax19.github.io%2FQuizIT%2Findex.html&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en)
       [(Jigsaw) validator]
-        [SignUp Page](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fdiddyjax19.github.io%2FQuizIT%2Fform.html&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en)
+        [Quiz page](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fdiddyjax19.github.io%2FQuizIT%2Fquiz.html&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en)
+      [(Jigsaw) validator]
+        [Congratulation Page](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fdiddyjax19.github.io%2FQuizIT%2Fend.html&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en)
 
       
 - JavaScript
@@ -105,7 +109,7 @@ The QuizIT website also shows how JavaScript works in a real-world context.The s
 
   - I confirmed that the colors and Fonts chosen are easy to read and accessible by running it through Lighthouse in Devtools
 
-    <h2 align="center"><img src="https://github.com/diddyjax19/QuizIT/blob/main/assets/screenshots/lighthouse.png"></h2>
+    <h2 align="center"><img src="assets/screenshots/lighthousereport.png"></h2>
 ### Further Testing
 
 -   The Website was tested on Google Chrome, Internet Explorer, Microsoft Edge and Safari browsers.
@@ -139,12 +143,11 @@ The QuizIT website also shows how JavaScript works in a real-world context.The s
 
         1. The user would already be comfortable with the website layout and can easily click the banner message.
 
-    3. As a Frequent User, I want to sign up to the Newsletter so that I am emailed any major updates and/or changes to the website or organisation.
-        1. At the bottom of every page their is a footer which content is consistent throughout all pages.
+    
   
 - Known Bugs
 
-  - All bugs resolved.
+  - Had issue making the number of the questions tally,wanted to use a shuffle system to huffle questions,this way you dont get bored of the same question over and over.
 
 ## Deployment
 
@@ -172,7 +175,7 @@ The live link can be found here - https://diddyjax19.github.io/QuizIT/
 
 #### Colour Scheme
 
- - The colours used are In QuizIT Websites are Black,Grey,dogerblue,blue,green-cyan,cyan-blue and white.
+ - The colours used are In QuizIT Websites are Black,Grey,dogerblue,blue,green-cyan,greenyellow,cyan-blue,red and white.
 
  - In order to pick the background and text color i used the color grid  tool [Color Grid](https://contrast-grid.eightshapes.com//HTML5) . This provide appropriate information to make a better decision when choosing my colors.
    

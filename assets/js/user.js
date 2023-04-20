@@ -28,6 +28,3 @@ function isValidName(name) {
 }
 
 
-function isValidSession() {
- 
-}
