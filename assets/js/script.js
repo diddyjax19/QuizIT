@@ -165,7 +165,7 @@ function show(question) {
     let questionElement = document.getElementById("questions");
     let [first, second, third, fourth] = question.options;
 
-    questionElement.innerHTML = `<h2>Q${question.id}. ${question.question}</h2>
+    questionElement.innerHTML = `<h2>Q${question.question}</h2>
     <ul class="option_group">
     <li class="option">${first}</li>
     <li class="option">${second}</li>
