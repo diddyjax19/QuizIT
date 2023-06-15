@@ -142,7 +142,7 @@ let question_count = 0;
 let points = 0;
 let shuffled_questions = questions.sort(() => Math.random() - 0.5); // shuffle the questions
 
-let timer = document.getElementById("timer");
+
 let time_left = 20; // sent the time to 20 seconds per question
 let interval = null;
 
@@ -152,6 +152,7 @@ window.onload = function () {
 
 function show(question) {
     clearInterval(interval);
+    let timer = document.getElementById("timer");
     time_left = 20; // reset time limit per question
     interval = setInterval(() => {
         time_left--;
