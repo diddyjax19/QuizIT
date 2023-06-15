@@ -142,30 +142,17 @@ let question_count = 0;
 let points = 0;
 let shuffled_questions = questions.sort(() => Math.random() - 0.5); // shuffle the questions
 
-let timer = document.getElementById("timer");
-let time_left = 20; // sent the time to 20 seconds per question
+
 let interval = null;
 
 window.onload = function () {
     show(shuffled_questions[question_count]);
 };
 
-function show(question) {
-    clearInterval(interval);
-    time_left = 20; // reset time limit per question
-    interval = setInterval(() => {
-        time_left--;
-        timer.innerHTML = `Time Left: ${time_left} seconds`;
-        if (time_left === 0) {
-            clearInterval(interval);
-            next();
-        }
-    }, 1000);
-
     let questionElement = document.getElementById("questions");
     let [first, second, third, fourth] = question.options;
 
-    questionElement.innerHTML = `<h2>Q${question.id}. ${question.question}</h2>
+    questionElement.innerHTML = `<h2>${question.question}</h2>
     <ul class="option_group">
     <li class="option">${first}</li>
     <li class="option">${second}</li>
@@ -173,7 +160,7 @@ function show(question) {
     <li class="option">${fourth}</li>
     </ul>`;
     toggleActive();
-}
+
 
 function toggleActive() {
     let option = document.querySelectorAll("li.option");
