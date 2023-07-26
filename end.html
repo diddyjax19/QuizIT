@@ -1,33 +1,37 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-   
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="assets/css/style.css">
-    <title>Congratulations</title>
-</head>
-<body>
-      
-     <!--Award and Score Card-->
-     <div class="wrapper">
-        <div class="border">
-            <i class="fas fa-award award_icon" style="margin: 10px 0px 0px 130px; color: gold;"></i>
-            <h1 class="username"><span class="name" style="font-size: 50px; color: #fff;"></span><br>WELL DONE !</h1>
-            <p class="userpoints">Your Points <span class="points" style=" font-size: 30px; color:  greenyellow;"></span></p>
-            
-            <div class="next-button-container">
-            <a href="quiz.html">
-            <button class="btn-next" onclick="restart()" style="position:relative; left:100px;">Restart</button></a>
-            
-            <a href="index.html">
-            <button class="btn-exit" onclick="exit()" style="position:relative; left:100px;">End Game</button></a>
-            
-            </div>
-        </div>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Congrats!</title>
+    <link rel="stylesheet" href="app.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div id="end" class="flex-center flex-column">
+        <h1 id="finalScore"></h1>
+        <form>
+          <input
+            type="text"
+            name="username"
+            id="username"
+            placeholder="username"
+          />
+          <button
+            type="submit"
+            class="btn"
+            id="saveScoreBtn"
+            onclick="saveHighScore(event)"
+            disabled
+          >
+            Save
+          </button>
+        </form>
+        <a class="btn" href="/game.html">Play Again</a>
+        <a class="btn" href="/">Go Home</a>
+      </div>
     </div>
-      
-    <script src="https://kit.fontawesome.com/d56261bbb9.js"></script>
-
-    <script src="assets/js/user.js"></script>
-</body>
+    <script src="end.js"></script>
+  </body>
 </html>
